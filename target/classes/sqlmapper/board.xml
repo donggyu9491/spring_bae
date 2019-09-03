@@ -22,7 +22,7 @@
     values (mvc_board_seq.nextval, #{bName}, #{bTitle}, #{bContent}, 0, mvc_board_seq.currval, 0, 0 )
      -->
     insert into board (userno, email, pw, name, id, birth, phonenumber, gender)
-    values (board_seq.nextval, #{email}, #{pw}, #{name}, #{id}, #{birth}, #{phonenumber}, #{gender}, 0, board_seq.currval, 0, 0 )
+    values (board_seq.nextval, #{email}, #{pw}, #{name}, #{id}, #{birth}, #{phonenumber}, #{gender})
 	</insert>
 	
 	<delete id="deleteBoard" parameterType="edu.bit.ex.vo.BoardVO">

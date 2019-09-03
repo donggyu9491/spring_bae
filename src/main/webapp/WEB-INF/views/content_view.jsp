@@ -14,7 +14,7 @@
 			<input type="hidden" name="bId" value="${content_view.bId}">
 			<tr>
 				<td> 번호 </td>
-				<td> ${content_view.bId} </td>
+				<td> ${content_view.userno} </td>
 			</tr>
 			<tr>
 				<td> 히트 </td>
@@ -22,7 +22,7 @@
 			</tr>
 			<tr>
 				<td> 이름 </td>
-				<td> <input type="text" name="bName" value="${content_view.bName}"></td>
+				<td> <input type="text" name="bName" value="${content_view.name}"></td>
 			</tr>
 			<tr>
 				<td> 제목 </td>
